@@ -3,7 +3,7 @@
 """
 This program will take the principle payment, yearly interest rate, and length of the loan in years.
 This program will then display the monthly payment, the total payments, and the total interest.
-This program will then display a loan amorization table.
+This program will then display a loan amortization table.
 """
 
 import math
@@ -33,8 +33,8 @@ print(f"The total payments over {number_of_years} years will be ${total_payments
 print(f"The total interest paid over {number_of_years} years will be ${total_interest:.2f}\n\n")
 
 
-#These statments create the loan amorization table to show your remaining balance and how much of your payments go to interest and the loan amount each month.
-print("Loan Amorization Table:\n")
+#These statments create the loan amortization table to show your remaining balance and how much of your payments go to interest and the loan amount each month.
+print("Loan Amortization Table:\n")
 print("Month\tInterest Payment\tPrinciple Payment\tRemaining Balance")
 remaining_balance = loan_amount
 for month in range(1,12 * number_of_years + 1):
